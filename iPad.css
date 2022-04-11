@@ -1,0 +1,2418 @@
+
+@import url('http://fonts.googleapis.com/css?family=Gamja+Flower');
+body{
+    width:100%;
+    height: 100%;
+    background-color:#FAFAFA;
+    font-family: Gamja Flower;
+  
+}
+.menu{
+   
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+
+b:nth-child(1){
+    border-bottom: 1px solid #3e3e3e;
+    padding-bottom: 5px;
+    margin-right: 15px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+}
+b:nth-child(2){
+    border-bottom: 1px solid #3e3e3e;
+    padding-bottom: 5px;
+    color:grey;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.target_box{
+    margin: 6% 10%;
+    background: transparent;
+}
+#div2{
+    display: none;
+}
+#which{
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main-image-mac{
+    display: flex;
+    justify-content: center;
+    
+}
+.image-mac{
+    padding-right: 40px;
+}
+.image-mac1{
+    padding-right: 40px;
+}
+
+.abcd{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#text-air{
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.16667;
+   font-weight: normal;
+    letter-spacing: .009em;
+    font-family: Gamja Flower;
+}
+#mua{
+  
+    text-decoration: none;
+    cursor: pointer;
+   
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff; 
+}
+.main-mua{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#learnmore{
+    padding-top:5px ;
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.image-mac li{
+    list-style: none;
+    text-align: center;
+    
+    
+}
+.learnmore-main{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #bbb9b9;
+}
+.main-chipm1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#text-chip{
+   text-align: center;
+    color:#555252;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.text-boxchip{
+    padding-top: 24px;
+}
+.eight-core {
+    padding-top: 30px;
+    
+}
+.eight-core li a{
+    text-decoration: none;
+}
+#core{
+    color:black;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#cpu{
+    color:#555252;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.eight-coreup{
+    padding-top: 40px;
+}
+.eight-coreup li a{
+    text-decoration: none;
+}
+#up{
+    color: #555252;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#coreup{
+    color:black;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#cpuup{
+    color:#555252;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.memory{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.sixteengb{
+    padding-top: 7px;
+}
+#upto16GB{
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.ssd{
+    padding-top: 40px;
+}
+#tb{
+    color:black;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#maximum{
+    color: #86868b;
+    margin: 0px;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.size{
+    padding-top: 40px;
+}
+#inch{
+    color:black;
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#retina{
+    margin: 0px;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.img-pin{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+#text-pin{
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.img-camera{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.text-camera{
+    padding-top: 6px;
+}
+#hd{
+    
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+.weight{
+    padding-top: 40px;
+    text-align: center;
+}
+#kg{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#text-weight{
+    margin: 0px;
+    padding-top: 7px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.touch{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+   
+}
+#text-touch{
+    
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+   
+}
+.text-t{
+    padding-top: 7px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #86868b ;
+}
+.eight-coreup1{
+    padding-top: 60px;
+}
+.eight-core2{
+   padding-top: 14px;
+}
+.compareallmacmodels{
+    padding: 42px 0px 113px;
+}
+.compareallmacmodels li{
+    list-style: none;
+    text-align: center;
+}
+#compareall{
+    
+    text-decoration: none;
+    color: #06c;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.retinadisplay{
+    padding-top: 40px;
+    text-align: center;
+  
+}
+#dophangiai{
+    font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#text-dophangiai{
+    color: #86868b;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#text1-dophangiai{
+    color: #86868b;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.eight-coreup-macmini{
+    padding-top:60px ;
+}
+.img-camera1080p{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.retinadisplay-macmini{
+    padding-top: 65px;
+    text-align: center;
+}
+.weight-macmini{
+    text-align: center;
+    padding-top: 100px;
+}
+.touch-macmini{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 83px;
+    border-bottom: 1px solid #86868b ;
+}
+.eight-core-macstudio{
+    padding-top: 10px;
+}
+.eight-coreup-macstudio{
+    padding-top: 40px;
+}
+#text-chip-macstudio{
+    padding-top: 4px;
+    text-align: center;
+    color:#555252;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.touch-macpro{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+   
+
+}
+.text-touch-macpro{
+    padding-top: 7px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #86868b;
+    text-align: center;
+    color: #555252;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+@media screen and (max-width:375px){
+    body{
+        width:375px;
+        margin: 0px;
+    }
+    #which{
+       
+       
+        
+        font-size: 30px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+   img#Air{
+    width:130px;
+    height:80px;
+    }
+    .abcd{
+        padding-top: 10px;
+    }
+    h2#text-air{
+        font-size: 17px;
+        line-height: 1.47059;
+        font-weight: 600;
+        letter-spacing: -.022em;
+        font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    }
+   h2#text-air{
+       font-size: 15px;
+       font-weight: normal;
+   }
+  .image-mac{
+      
+      padding: 10px;
+     
+  }
+  a#core{
+      font-size: 17px;
+  }
+  a#coreup{
+      font-size: 17px;
+  }
+  a#tb{
+      font-size: 17px;
+  }
+  a#inch{
+      font-size: 17px;
+  }
+  a#kg{
+      font-size: 17px;
+  }
+  .text-boxchip{
+      padding-top: 10px;
+  }
+  div.text-tt{
+     padding-bottom: 20px;
+      border-bottom: 1px solid #86868b;
+      padding-top: 7px;
+  }
+  .eight-core{
+      padding-top: 0px;
+  }
+  .eight-coreup{
+      padding-top:20px ;
+  }
+  .eight-coreup1{
+      padding-top: 40px;
+  }
+   .macpro1416{
+       display: none;
+   }
+ 
+ .macpro1416rp{
+     display:block;
+ }
+ .imgmac1416pro{
+     display: flex;
+    justify-items: center;
+    justify-content: center;
+    
+    
+     
+     width:130px;
+     height: 80px;
+ }
+}
+.text-tt{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #86868b;
+    padding-top: 7px;
+}
+.macpro1416inch{
+    display: none;
+}
+b#notebook.Single{
+    padding-right: 0px;
+}
+ *{
+     box-sizing: border-box;
+ }
+ ul{
+     list-style: none;
+ }
+ a{
+     text-decoration: none;
+ }
+ nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 100%;
+     border: 1px solid rgba(0,0,0,0.04);
+     background-color: #ffffff;
+     position: fixed;
+     left:0;
+     top: 0;
+     z-index: 100;
+ }
+ .logo img{
+     height:35px;  
+ }
+ nav .menu{
+     display: flex;
+ }
+ 
+ nav .menu li a{
+     height:40px;
+     line-height: 43px;
+     margin: 0;
+     padding: 0px 22px;
+     display: flex;
+     font-size: 0.8rem;
+     text-transform: uppercase;
+     font-weight: 500;
+     color: #585858;
+     letter-spacing: 1px;
+ }
+ .search{
+     width:250px;
+     height:40px;
+     background-color: rgba(245,245,245,0.8);
+     display: flex;
+     align-items: center;
+     border-radius: 20px;
+     padding: 0px 20px;
+ }
+ .search input{
+     width: 100%;
+     height: 30px;
+     border: none;
+     outline: none;
+     background-color: transparent;
+ }
+ .search i{
+     color: #3a3a3a;
+ }
+ nav .menu li a:hover{
+     border-radius: 10px;
+     background-color: #242424;
+     color: #ffffff;
+     box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
+     transition: all ease;
+     
+ }
+ #main{
+     padding-top:80px ;
+     background-color: #000000;
+     height:175px;
+ }
+#autoWidth{
+    display: flex;
+    justify-content: center;
+}
+ .showcase-box:hover{
+     transform: scale(1.01);
+ }
+ .showcase-box img{
+   margin: 0 20px;
+ }
+ #macbookair{
+     width:52px;
+     height:54px;
+ }
+ #macpro{
+     width:35px;
+     height:54px;
+ }
+ #macmini{
+     width:28px;
+     height:54px;
+ }
+ #circle{
+     width: 35px;
+     height:54px;
+ }
+ .text-mac{
+     font-size: 12px;
+     text-align: center;
+ }
+ .showcase-heading{
+     padding-left: 30px;
+     font-weight: 500;
+     letter-spacing:1px;
+     text-transform: uppercase;
+     font-size:1.2rem ;
+     color: #1a1a1a;
+ }
+ .cs-hidden{
+     overflow:visible !important  ;
+ }
+ #latest{
+     border-top: 1px solid rgba(53,53,53,0.1);
+ }
+ .latest-heading{
+     margin: 30px 30px 0px 30px;
+     font-weight: 500;
+     font-size: 1.3rem;
+ }
+ .latest-box{
+     display: flex;
+     flex-direction: column;
+     align-items:center ;
+     box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+     margin: 20px 10px;
+     border-radius: 10px;
+     overflow: hidden;
+     width: 500px;
+     background-color: #ffffff;
+     transform: scale(1);
+     transition: 0.1s ease-in;
+ }
+ .latest-box:hover{
+     transform: scale(1.01);
+ }
+ .latest-b-img{
+     width: 100%;
+     height:270px;
+ }
+ 
+ 
+ .latest-b-img img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+ .latest-b-text strong{
+     color: #3a3a3a;
+     margin: 0px;
+ }
+ .latest-b-text{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 10px;
+     
+ }
+ .latest-b-text p{
+     color: #3DB2FF;
+     margin: 0px;
+ }
+ nav .menu-btn{
+     display: none;
+ }
+ @media(max-width:1100px){
+     nav{
+         justify-content: space-between;
+         height: 70px;
+         padding:0px 10px;
+     }
+     nav .menu{
+         display: none;
+         position: absolute;
+         top: 65px;
+         left: 0px;
+         background: #fff;
+         border-bottom: 4px solid #242424;
+         width: 100%;
+         padding:0px;
+         margin: 0px;
+     }
+     .menu li{
+         width:100% ;
+ 
+     }
+     nav .menu li a{
+         width: 100%;
+         height:40px;
+         align-items: center;
+         margin: 0px;
+         padding: 25px;
+         border: 1px solid rgba(38,38,38,0.03);
+     }
+     nav .menu-icon{
+         cursor: pointer;
+         float: right;
+         padding: 28px 20px;
+         position: relative;
+         user-select: none;
+         display: block;
+     }
+     nav .menu-icon .nav-icon{
+         background-color: #333333;
+         display: block;
+         height: 2px;
+         position: relative;
+         transition: background 0.2s ease-out;
+         width: 18px;
+     }
+     nav .menu-icon .nav-icon:before,
+     nav .menu-icon .nav-icon:after{
+         background: #333333;
+         content: '';
+         display: block;
+         height: 100%;
+         position: absolute;
+         transform: all ease-out 0.2s;
+         width: 100%;
+     }
+     nav .menu-icon .nav-icon:before{
+         top:5px;
+     }
+     nav .menu-icon .nav-icon:after{
+         top:-5px;
+     }
+     nav .menu-btn:checked ~ .menu-icon .nav-icon{
+         background: transparent;
+     }
+     nav .menu-btn:checked ~ .menu-icon .nav-icon:before{
+         transform:rotate(-45deg);
+         top:0;
+     }
+     nav .menu-btn:checked ~ .menu-icon .nav-icon:after{
+         transform: rotate(45deg);
+         top:0;
+     }
+     nav .menu-btn{
+         display:none ;
+     }
+     nav .menu-btn:checked ~ .menu{
+         display: block;
+     }
+ }
+ @media(max-width:680px){
+  
+     .latest-box{
+         width:190px;
+         margin: 20px 5px;
+     }
+     .movies-box{
+         flex-direction: row;
+         width:90%;
+         border: 1px solid rgba(0,0,0,0.2);
+     }
+     .movies-box a{
+         width:65%;
+     }
+     footer{
+         justify-content:space-between ;
+         padding: 0px 20px;
+         text-align: center;
+     }
+ }
+ .boxmid1{
+     display: flex;
+     justify-content: center;
+ }
+ .boxmid2{
+     display: flex;
+     justify-content: center;
+ }
+ .boxmid3{
+     display: flex;
+     justify-content: center;
+ }
+ .foot1{
+     display: flex;
+     justify-content: center;
+ }
+ .end1 li{
+     list-style: none;
+ }
+ .foot2{
+     display: flex;
+     justify-content: center;
+ }
+ .end2 li{
+     list-style: none;
+ }
+ 
+ 
+ 
+ .bottom{
+     background-color: #f5f5f7;
+     text-align:start;
+       display: flex;
+       justify-content: center;
+       
+       
+   }
+   #main-bottom{
+       width:980px;
+      
+   }
+   #main-bottom li{
+       font-size: 13px;
+       color: #3a3a3a;
+   }
+   .bottom1{
+     background-color: #f5f5f7;
+       text-align:start;
+         display: flex;
+         justify-content: center;  
+     }
+   #main-bottom1{
+       width:980px;
+       
+   }
+   #main-bottom1 li{
+     font-size: 13px;
+     color: #3a3a3a;
+   }
+   #dong2{
+       padding-bottom: 20px;
+       border-bottom: 1px solid rgb(206, 196, 196);
+   }
+   .end{
+     background-color: #f5f5f7;
+       display: flex;
+       justify-content: center;
+    
+   }
+   #main-end{
+       width: 980px;
+       display: flex;
+       justify-content: space-between;
+       
+   }
+   .ok1{
+     padding-right: 20px;
+     list-style: none;
+   }
+   .shopandlearn{
+       font-size: 15px;
+   }
+   .ok1 li{
+       padding-bottom: 10px;
+       font-size: 13px;
+   }
+   .ok1 li a{
+     color: #3DB2FF;
+   }
+   .ok2{
+     padding-right: 20px;
+     list-style: none;
+   }
+   .service{
+       font-size: 15px;
+   }
+   .account{
+       font-size: 15px;
+   }
+   .ok2 li{
+     padding-bottom: 10px;
+     font-size: 13px;
+   }
+   .ok2 li a{
+     color: #3DB2FF;
+   }
+   .ok3{
+     padding-right: 20px;
+     list-style: none;
+   }
+   .business{
+       font-size: 15px;
+   }
+   .ok3 li{
+       padding-bottom: 10px;
+   }
+   .ok3 li a{
+       font-size: 13px;
+       color: #3DB2FF;
+   }
+   .education{
+     font-size: 15PX;
+ }
+ .health{
+     font-size: 15px;
+ }
+   .ok4{
+       list-style: none;
+   }
+   .values{
+       font-size: 15px;
+   }
+   .ok4 li {
+       padding-bottom: 10px;
+   }
+   .about{
+       font-size: 15px;
+   }
+   .ok4 li a{
+       font-size: 13px;
+       color: #3DB2FF;
+   }
+ 
+   .coppyright{
+       background-color: #f5f5f7;
+     display: flex;
+     justify-content: center;
+     
+    
+ }
+ #coppyright-main{
+     width: 980px;
+     height: 30px;
+   
+ }
+ #coppyright-main li{
+     border-bottom:1px solid rgb(206, 196, 196);
+     padding-bottom: 10px;
+     font-size: 13px;
+ }
+ #coppyright-main li a{
+     color: #3DB2FF;
+ }
+ .coppyright1{
+     background-color: #f5f5f7;
+     display: flex;
+     justify-content: center;
+ }
+ #coppyright-main1{
+     width:980px;
+     margin-top: -10px;
+     font-size: 13px;
+ }
+ #text-cpr{
+     padding-right: 30px;
+     color: #333333;
+ }
+ .privacy{
+     padding-right:15px;
+     border-right: 1px solid rgb(206, 196, 196);
+     color: #333333;
+ }
+ .term{
+     padding-right:15px ;
+     padding-left: 15px;
+     border-right: 1px solid rgb(206, 196, 196);
+     color: #333333;
+ }
+ .legal{
+     padding-right: 15px;
+     padding-left: 15px;
+     border-right: 1px solid rgb(206, 196, 196);
+     color: #333333;
+ }
+ .sitemap{
+     padding-left: 15px;
+     padding-right:275px;
+     color: #333333;
+ }
+ .VietNam{
+     color: red;
+ }
+ .VietNam:hover{
+     color: yellow;
+ }
+ 
+ @media(max-width:768px)
+ {
+     .boxmid1{
+         flex-direction: column;
+     }
+    .boxmid2{
+        flex-direction: column;
+    }
+    .boxmid3{
+        flex-direction: column;
+    }
+    #mid{
+        padding-right: 44px;
+    }
+    .latest-box{
+        width: 100%;
+    }
+    .latest-b-img{
+        width:100%;
+    }
+    #main-bottom{
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    #main-bottom1{
+     padding-left: 14px;
+     padding-right: 14px;
+     
+ }
+     #main-end{
+         padding-left: 14px;
+         padding-right: 14px;
+         padding-top: 50px;
+     }
+     #coppyright-main{
+         padding-left: 14px;
+         padding-right: 14px;
+     }
+     #coppyright-main1{
+         padding-left: 14px;
+         padding-right: 14px;
+     }
+   #main-end{
+       display: none;
+   }
+   #main-endrp{
+       padding-left: 14px;
+       padding-right: 14px;
+       padding-top: 40px;
+   }
+ }
+ .dropdown{
+     display: none;
+ }
+ .dropdown-list,.dropdown-list1,.dropdown-list2,.dropdown-list3,.dropdown-list4,.dropdown-list5,.dropdown-list6,.dropdown-list7{
+     display: none;
+ }
+ .dropdown1{
+     display: none;
+ }
+ .dropdown2{
+     display: none;
+ }.dropdown3{
+     display: none;
+ }.dropdown4{
+     display: none;
+ }.dropdown5{
+     display: none;
+ }.dropdown6{
+     display: none;
+ }.dropdown7{
+     display: none;
+ }
+ @media screen and (max-width:533px){
+    .text-mac{
+        display: block;
+    }
+    .alldrd{
+        background-color:#f5f5f7;
+    }
+     .dropdown{
+         color: #3DB2FF;
+       font-size: 13px;
+         margin-left: 14px;
+         margin-right: 14px;
+         display: block;
+         padding-bottom: 5px;
+         border-bottom: 0.1px solid rgb(226, 219, 219);
+         
+     }
+     .dropdown-list li a{
+         font-size: 12px;
+         color: #F88E38;
+     }
+     .dropdown-item{
+       
+         margin-left: 14px;
+         margin-right: 14px;
+         padding-top:10px;
+         justify-content: space-between;
+         font-size: 15px;
+         display: flex;
+     }
+     .dropdown-select{
+         justify-content: space-between;
+         display: flex;
+     }
+     .dropdown1{
+         color: #3DB2FF;
+        font-size: 13px;
+         margin-left: 14px;
+         margin-right: 14px;
+         margin-top:10px;
+         display: block;
+         padding-bottom: 5px;
+         border-bottom: 0.1px solid rgb(226, 219, 219);
+        
+     }
+     .dropdown-list1 li a{
+         font-size: 12px;
+         color: #F88E38;
+     }
+     .dropdown-item1{
+         margin-left: 14px;
+         margin-right: 14px;
+         padding-top:14px;
+         justify-content: space-between;
+         font-size: 15px;
+         display: flex;
+         
+     }
+     .dropdown-select1{
+         justify-content: space-between;
+         display: flex;
+     }
+     .dropdown2{
+         color: #3DB2FF;
+        font-size: 13px;
+         margin-left: 14px;
+         margin-right: 14px;
+         margin-top:10px;
+         display: block;
+         border-bottom: 0.1px solid rgb(226, 219, 219);
+         padding-bottom: 5px;
+         
+     }
+     .dropdown-list2 li a{
+         font-size: 12px;
+         color: #F88E38;
+     }
+     .dropdown-item2{
+         margin-left: 14px;
+         margin-right: 14px;
+         padding-top:10px;
+         justify-content: space-between;
+         font-size: 15px;
+         display: flex;
+     }
+     .dropdown-select2{
+         justify-content: space-between;
+         display: flex;
+     }
+     .dropdown3{
+         color: #3DB2FF;
+        font-size: 13px;
+         padding-bottom: 5px;
+         margin-left: 14px;
+         margin-right: 14px;
+         margin-top:10px;
+         display: block;
+         border-bottom: 0.1px solid rgb(226, 219, 219);
+        
+     }
+     .dropdown-list3 li a{
+         color: #F88E38;
+         font-size: 12px;
+     }
+     .dropdown-item3{
+         margin-left: 14px;
+         margin-right: 14px;
+         padding-top:10px;
+         justify-content: space-between;
+         font-size: 15px;
+         display: flex;
+     }
+     .dropdown-select3{
+         justify-content: space-between;
+         display: flex;
+     }
+     .dropdown4{
+         color: #3DB2FF;
+         font-size: 13px;
+         padding-bottom: 5px;
+         margin-left: 14px;
+         margin-right: 14px;
+         margin-top:10px;
+         display: block;
+         border-bottom: 0.1px solid rgb(226, 219, 219);
+         
+     }
+     .dropdown-list4 li a{
+         color: #F88E38;
+         font-size: 12px;
+     }
+     .dropdown-item4{
+         margin-left: 14px;
+         margin-right: 14px;
+         padding-top:10px;
+         justify-content: space-between;
+         font-size: 15px;
+         display: flex;
+     }
+     .dropdown-select4{
+         justify-content: space-between;
+         display: flex;
+     }
+     .dropdown5{
+         color: #3DB2FF;
+         font-size: 13px;
+         padding-bottom: 5px;
+         margin-left: 14px;
+         margin-right: 14px;
+         margin-top:10px;
+         display: block;
+         border-bottom: 0.1px solid rgb(226, 219, 219);
+        
+     }
+     .dropdown-list5 li a{
+         color: #F88E38;
+         font-size: 12px;
+     }
+     .dropdown-item5{
+         margin-left: 14px;
+         margin-right: 14px;
+         padding-top:10px;
+         justify-content: space-between;
+         font-size: 15px;
+         display: flex;
+     }
+     .dropdown-select5{
+         justify-content: space-between;
+         display: flex;
+     }
+     .dropdown6{
+         color: #3DB2FF;
+         font-size: 13px;
+         padding-bottom: 5px;
+         margin-left: 14px;
+         margin-right: 14px;
+         margin-top:10px;
+         display: block;
+         border-bottom: 0.1px solid rgb(226, 219, 219);
+        
+     }
+     .dropdown-list6 li a{
+         color: #F88E38;
+         font-size: 12px;
+     }
+     .dropdown-item6{
+         margin-left: 14px;
+         margin-right: 14px;
+         padding-top:10px;
+         justify-content: space-between;
+         font-size: 15px;
+         display: flex;
+     }
+     .dropdown-select6{
+         justify-content: space-between;
+         display: flex;
+     }
+     .dropdown7{
+         color: #3DB2FF;
+         font-size: 13px;
+         padding-bottom: 5px;
+         margin-left: 14px;
+         margin-right: 14px;
+         margin-top:10px;
+         display: block;
+         border-bottom: 0.1px solid rgb(226, 219, 219);
+       
+     }
+     .dropdown-list7 li a{
+         color: #F88E38;
+         font-size: 12px;
+     }
+     .dropdown-item7{
+         
+         margin-left: 14px;
+         margin-right: 14px;
+         padding-top:10px;
+         justify-content: space-between;
+         font-size: 15px;
+         display: flex;
+     }
+     .dropdown-select7{
+         justify-content: space-between;
+         display: flex;
+     }
+     .latest-b-text{
+         font-size: 13px;
+     }
+    
+ }
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+.main-mac{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+   padding: 63px 0px 116px;
+}
+
+#new{
+    text-align: center;
+   font-size: 17px;
+   border-color: #bf4800;
+    color: #f56300;
+    font-weight: 600;
+   margin: 0px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#MacBookpro{
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+p#super{
+    color:white;
+    text-align: center;
+    margin: 8px;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.ok-mac li{
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#buy{
+    cursor: pointer;
+   
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+    
+}
+#learnmore{
+    color: #06c;
+}
+.lSSlideOuter .lSPager.lSpg {
+ 
+    display: none;
+}
+.main-which{
+    padding-top: 110px;
+}
+.ok-which li{
+    text-align: center;
+    list-style: none;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.tabnav-item {
+    display: inline-block;
+   
+    border-bottom: 1px solid #740c0c;
+    list-style: none;
+    outline: none;
+}
+.test{
+display: flex;
+justify-content: center;
+}
+#notebook{
+    color: #3e3e3e;
+    padding-right: 60px;
+}
+#desktop{
+    color: #3e3e3e;
+    
+}
+@media screen and (max-width:280px){
+    img#macbooksection{
+        width:280px;
+    }    
+    .ok-mac{
+        width:280px;
+    }
+    #new{
+        font-size: 14px;
+    }
+    #MacBookpro{
+        font-size: 21px;
+    }
+    #super{
+        font-size: 40px;
+       font-weight: normal;
+    }
+}
+@media only screen and (min-width:360px) and (max-width:374px){
+    div.ok-mac{
+        width:360px;
+    }
+    #new{
+      font-size: 14px;
+  }
+  #MacBookpro{
+      font-size: 21px;
+  }
+  #super{
+      font-size: 40px;
+     font-weight: normal;
+  }
+ img#macbooksection{
+     width:360px;
+ }
+}
+@media only screen and (min-width:375px) and (max-width:376px){
+    div.ok-mac{
+        width:375px;
+    }
+    #new{
+      font-size: 14px;
+  }
+  #MacBookpro{
+      font-size: 21px;
+  }
+  #super{
+      font-size: 40px;
+     font-weight: normal;
+  }
+ img#macbooksection{
+     width:375px;
+ }
+}
+@media only screen and (min-width:376px) and (max-width:390px){
+    div.ok-mac{
+        width:390px;
+    }
+    #new{
+      font-size: 14px;
+  }
+  #MacBookpro{
+      font-size: 21px;
+  }
+  #super{
+      font-size: 40px;
+     font-weight: normal;
+  }
+ img#macbooksection{
+     width:390px;
+ }
+}
+@media only screen and (min-width:391px) and (max-width:414px){
+    div.ok-mac{
+        width:390px;
+    }
+    #new{
+      font-size: 14px;
+  }
+  #MacBookpro{
+      font-size: 21px;
+  }
+  #super{
+      font-size: 40px;
+     font-weight: normal;
+  }
+ img#macbooksection{
+     width:390px;
+ }
+}
+p#new{
+    font-family: Gamja Flower;
+}
+p#MacBookpro{
+    font-family: Gamja Flower;
+}
+p#super{
+    font-family: Gamja Flower;
+}
+a#buy{
+    font-family: Gamja Flower;
+}
+a#learnmore{
+    font-family: Gamja Flower;
+}
+h2#which{
+    font-family: Gamja Flower;
+}
+b#notebook.Single{
+    font-family: Gamja Flower;
+}
+b#desktop.Single{
+    font-family: Gamja Flower;
+}
+p#text-chip{
+    font-family: Gamja Flower;
+    font-size: 19px;
+}
+a#core{
+    font-family: Gamja Flower;
+    font-size: 21px;
+}
+a#cpu{
+    font-family: Gamja Flower;
+    font-size: 15px;
+}
+a#up{
+    font-family: Gamja Flower;
+    font-size: 15px;
+}
+
+a#coreup{
+    font-family: Gamja Flower;
+    font-size: 21px;
+}
+a#cpuup{
+    font-family: Gamja Flower;
+    font-size: 15px;
+}
+a#upto16GB{
+    font-family: Gamja Flower;
+    font-size: 17px;
+}
+p#maximum{
+    font-family: Gamja Flower;
+    font-size: 17px;
+}
+
+a#tb{
+    font-family: Gamja Flower;
+    font-size: 21px;
+}
+a#inch{
+    font-family: Gamja Flower;
+    font-size: 21px;
+}
+p#retina{
+    font-family: Gamja Flower;
+    font-size: 17px;
+}
+a#text-pin{
+    font-family: Gamja Flower;
+    font-size: 17px;
+}
+a#hd{
+    font-family: Gamja Flower;
+    font-size: 17px;
+}
+a#kg{
+    font-family: Gamja Flower;
+    font-size: 21px;
+}
+p#text-weight{
+    font-family: Gamja Flower;
+    font-size: 17px;
+}
+a#text-touch{
+    font-family: Gamja Flower;
+    font-size: 17px;
+}
+a#compareall{
+    font-family: Gamja Flower;
+    font-size: 30px;
+}
+.text-make-mac{
+    padding-top: 150px;
+    text-align: center;
+    font-family: Gamja Flower;
+    font-size: 50px;
+   
+}
+.whatmakeamac{
+    background-color: white;
+}
+.latest-box{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    margin: 20px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+    background-color: #ffffff;
+    transform: scale(1);
+    transition: 0.1s ease-in;
+}
+.latest-box1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    margin: 20px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+    background-color: #ffffff;
+    transform: scale(1);
+    transition: 0.1s ease-in;
+}
+.item-box{
+    display: flex;
+    justify-content: center;
+}
+#whymac{
+    font-family: Gamja Flower;
+    font-size: 30px;
+}
+#incre1{
+    text-align: center;
+    font-family: Gamja Flower;
+    font-size: 30px;
+    color:#F88E38;
+}
+#incre2{
+    font-family: Gamja Flower;
+    font-size: 30px;
+    color:#F88E38;
+    text-align: center;
+}
+#LM{
+    list-style: none;
+}
+#incre3{
+    color: #0066cc;
+}
+#text-device-1{
+        font-family: Gamja Flower;
+        font-size: 30px;
+        color:#F88E38  ;
+        text-align: center;
+}
+#Continuity{
+    font-family: Gamja Flower;
+    font-size: 30px;
+}
+
+
+#hightpower{
+  
+    left:25%;
+    margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 50px;
+    color: white;
+   position: absolute;
+  
+}
+
+
+#maclearnmore{
+   
+    margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 20px;
+    color: white;
+}
+#built-text1{
+  
+    text-align: center;
+    margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#img-promo{
+    width: 100%;
+    height:600px;
+}
+.banner{
+    position: relative;
+    margin: 0 auto;
+}
+
+.main-text-promo{
+    position: absolute;
+    top:37%;
+   width:100%;
+   text-align: center;
+}
+#text-promo1{
+    margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 50px;
+    color: white;
+}
+#text-promo2{
+    margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 50px;
+    color: white;
+}
+.UL{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#text-update{
+    margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 20px;
+    color: white;
+    padding-right: 20px;
+}
+#text-learnmore{
+    margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 20px;
+    color: white;
+}
+.buil-app{
+   
+    padding-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+#text-built-app{
+    text-align: center;
+    margin: 0px;
+    font-size: 50px;
+}
+#text-built-app1{
+    text-align: center;
+    margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 30px;
+}
+.main-img-built{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(226, 219, 219);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 30px;
+}
+.imgbuilt img{
+   
+    width:50px;
+}
+.text-img-built{
+    display: flex;
+    justify-content: center;
+    
+}
+.imgbuilt1 {
+   margin-right: 50px;
+}
+.imgbuilt2 {
+    margin-right: 50px;
+ }
+ .imgbuilt3 {
+    margin-right: 50px;
+ }
+ .imgbuilt4 {
+    margin-right: 50px;
+ }
+ .imgbuilt5 {
+    margin-right: 50px;
+ }
+ .imgbuilt6 {
+    margin-right: 50px;
+ }
+
+ .img-garage{
+     display: flex;
+     justify-content: center;
+ }
+ .text-img-built4{
+     margin-top: 6px;
+ }
+ .buil-app li {
+     list-style: none;
+     text-align: center;
+     margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 25px;
+    
+ }
+ #learnmore-built-app{
+     color: #0066cc;
+ }
+ .imacm1 img{
+
+     border-radius: 50px;
+     width: auto;
+     height: auto;
+ }
+.imacm1{
+   
+    display: flex;
+    justify-content: center;
+}
+#img-lgap{
+    margin-top: 3px;
+}
+.text-img-built1{
+    text-align: center;
+    margin-top: -4px;
+}
+.img-mbpro{
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-bottom: 60px;
+    
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(226, 219, 219) ;
+}
+.section-logo-apple{
+ padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+#text-logo-apple{
+    font-size: 22px;
+}
+.text-gm{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#getoutofmac{
+    font-size: 50px;
+    text-align: center;
+}
+.four-logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+#text-one1{
+    font-size: 20px;
+}
+.TL{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#Tryitfree{
+    padding-right: 20px;
+    color: #0066cc;
+    font-size: 18px;
+}
+#LMTL{
+    color: #0066cc;
+    font-size: 18px;
+}
+.img-appleatwork img{
+    width:100%;
+}
+.UL1{
+    list-style: none;
+}
+#text-update1{
+    margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 25px;
+    color: white;
+}
+#text-learnmore1{
+    margin: 0px;
+    font-family: Gamja Flower;
+    font-size: 25px;
+    color: white;
+}
+.text-footer{
+
+   background-color: #ece8e8e3;
+   
+}
+#text-ft1{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#text-ft2{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#text-ft3{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#text-ft4{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#text-ft5{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#text-ft6{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#text-ft7{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#text-ft8{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#text-ft9{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#text-ft10{
+    margin-left: 300px;
+    margin-right: 300px;;
+}
+#text-ft11{
+    margin-left: 300px;
+    margin-right: 300px;
+    border-bottom: 1px solid rgb(226, 219, 219);
+    padding-bottom: 20px;
+}
+.SSA{
+    
+    
+    display: flex;
+    justify-content:center;
+}
+.menuft1{
+    padding-right: 50px;
+    list-style: none;
+}
+.menuft2{
+    padding-right: 50px;
+    list-style: none;
+}
+.menuft3{
+    padding-right: 50px;
+    list-style: none;
+}
+.menuft4{
+    padding-right: 50px;
+    list-style: none;
+}
+
+.menuft1 li a{
+  color: black;
+}
+.menuft2 li a{
+   color:black;
+}
+.menuft3 li a{
+    color: black;
+}
+.menuft4 li a{
+    color: black;
+}
+#findnearu{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    list-style: none;
+    border-bottom: 1px solid rgb(226, 219, 219);
+}
+#FAR{
+    color: #0066cc;
+}
+#built-by{
+    text-align: center;
+}
+#built-by:hover{
+    color:#F88E38
+}
+.contact-me{
+  
+    display: flex;
+    justify-content: center;
+}
+.fa-facebook{
+    color: #0066cc;
+    padding-right: 20px;
+}
+.fa-instagram{
+    color:rgb(238, 153, 168);
+    
+}
+.fa-github{
+    color: #bf4800;
+    padding-right: 20px;
+}
+
+
+@import url('http://fonts.googleapis.com/css?family=Gamja+Flower');
+.post-grid{
+    margin-top: 68px;
+    margin-bottom: 73px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, auto);
+    grid-row-gap: 38px;
+    grid-column-gap: 34px;
+   
+}
+.post-item:first-child{
+    grid-area: h1;
+}
+.post-item:nth-child(2){
+    grid-area: h2;
+}
+.post-item:nth-child(3){
+    grid-area: h3;
+}
+.post-item:nth-child(4){
+    grid-area: h4;
+}
+.post-item:nth-child(5){
+    grid-area: h5;
+}
+.post-item:nth-child(6){
+    grid-area: h6;
+}
+.post-item:nth-child(7){
+    grid-area: h7;
+}
+.post-item:nth-child(8){
+    grid-area: h8;
+}
+.post-item:nth-child(9){
+    grid-area: h9;
+}
+.post-item:nth-child(10){
+    grid-area: h10;
+}
+.post-item:nth-child(11){
+    grid-area: h11;
+}
+.post-item:nth-child(12){
+    grid-area: h12;
+}
+.post-item:nth-child(13){
+    grid-area: h13;
+}
+.post-item:nth-child(14){
+    grid-area: h14;
+}
+.post-item:nth-child(15){
+    grid-area: h15;
+}
+.post-item:nth-child(16){
+    grid-area: h16;
+}
+.post-item:nth-child(17){
+    grid-area: h17;
+}
+.post-item:nth-child(18){
+    grid-area: h18;
+}
+.post-item:nth-child(19){
+    grid-area: h19;
+}
+.post-item:nth-child(20){
+    grid-area: h20;
+}
+.post-item:nth-child(21){
+    grid-area: h21;
+}
+.post-item:nth-child(22){
+    grid-area: h22;
+}
+.post-item:nth-child(23){
+    grid-area: h23;
+}
+.post-item:nth-child(24){
+    grid-area: h24;
+}
+.post-item:nth-child(25){
+    grid-area: h25;
+}
+.post-item:nth-child(26){
+    grid-area: h26;
+}
+.post-item:nth-child(27){
+    grid-area: h27;
+}
+.post-item:nth-child(28){
+    grid-area: h28;
+}
+.post-item:nth-child(29){
+    grid-area: h29;
+}
+.post-item:nth-child(30){
+    grid-area: h30;
+}
+.post-item:nth-child(31){
+    grid-area: h31;
+}
+.post-item:last-child{
+    grid-area: h32;
+}
+.post-item{
+    width:209.5px;
+    min-height: 214px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 13px;
+}
+.post-content{
+    font-weight: 300;
+    padding: 25px;
+   text-align: center;
+}
+.ipadpro-device{
+    width:209.5px;
+    border-bottom: 1px solid rgba(43, 27, 27, 0.233);
+}
+.content-color{
+    display: flex;
+    justify-content: center;
+}
+#ipadpro{
+    
+    margin: 0px;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: Gamja Flower;
+}
+#textbottomipad{
+    
+    color:rgba(43, 27, 27, 0.76);
+    margin: 0px;
+    padding-top: 5px;
+    font-size: 17px;
+    font-family: Gamja Flower;
+}
+#muaipad{
+  
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: Gamja Flower;
+    min-width: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+}
+#learnmore{
+    color:#0071e3;
+    margin:0px;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: Gamja Flower;
+}
+#inch{
+    text-align: center;
+    margin:0px ;
+    font-size: 20px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .006em;
+    font-family: Gamja Flower;
+}
+#XDR{
+    text-align: center;
+    margin:0px ;
+    font-size: 17px;
+    line-height: 1.21053;
+   
+    letter-spacing: .006em;
+    font-family: Gamja Flower;
+}
+#in{
+    text-align: center;
+    margin:0px ;
+    font-size: 17px;
+    line-height: 1.21053;
+   
+    letter-spacing: .006em;
+    font-family: Gamja Flower;
+}
+.chip-device{
+    display: flex;
+    justify-content: center;
+}
+.text-chip{
+    padding-top: 5px;
+}
+#textofchip{
+    text-align: center;
+    margin:0px ;
+    font-size: 17px;
+    line-height: 1.21053;
+   
+    letter-spacing: .006em;
+    font-family: Gamja Flower;
+}
+.camera-device{
+    display: flex;
+    justify-content: center;
+}
+.usb-device{
+    display: flex;
+    justify-content: center;
+}
+.internet-device{
+    display: flex;
+    justify-content: center;
+}
+.pen-device{
+    display: flex;
+    justify-content: center;
+}
+.text-camera{
+    padding-top: 5px;
+}
+.text-usb{
+    padding-top: 5px;
+}
+.text-internet{
+    padding-top: 5px;
+}
+.text-pen{
+    padding-top: 5px;
+}
+
+    .post-image{
+        width:125px;
+        height: 141px;
+    }
+    .post-imageipadair{
+        width:91px;
+        height:125px;
+    }
+    .ipadpro-device{
+        width:159.06px;
+        height:369px;
+       margin-left:25px;
+    }
+    .post-imageipad{
+        width:88px;
+        height: 127px;
+    }
+    .post-imageipadmini{
+        width:74px;
+        height: 107px;
+    }
+    .post-item{
+        min-height: 141px;
+    margin-bottom: 7px;
+    width:159.06px;
+    }
+    .post-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+#comparee{
+    list-style: none;
+    text-align: center;
+}
+
+#compare{
+    font-size: 21px;
+    text-decoration: none;
+    text-align: center;
+    color: #0071e3;
+    font-family: Gamja Flower;
+}
+.plus-progressive{
+   display: flex;
+   justify-content: center;
+
+}
+#section-headline{
+    text-align: center;
+    text-align: center;
+font-size: 50px;
+text-decoration: none;
+text-align: center;
+
+font-family: Gamja Flower;
+}
+.progressive1{
+   
+   
+}
+.progressive2{
+   
+}
+#headline-progressive1{
+    margin: 0px;
+text-align: center;
+font-size: 40px;
+text-decoration: none;
+text-align: center;
+
+font-family: Gamja Flower;
+}
+#dreamup{
+    margin: 0px;
+text-align: center;
+font-size: 21px;
+text-decoration: none;
+text-align: center;
+
+font-family: Gamja Flower;
+}
+.shop-learnmore{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#text-shop{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 21px;
+text-decoration: none;
+text-align: center;
+color: #0071e3;
+font-family: Gamja Flower;
+}
+#text-learnmore{
+    text-decoration: none;
+    font-size: 21px;
+text-decoration: none;
+text-align: center;
+color: #0071e3;
+font-family: Gamja Flower;
+}
+.text-pen1{
+border-bottom: 1px solid #e0e0e0;
+padding-bottom: 30px;
+}
+img#macmini{
+    width:45px;
+    height: 54px;
+
+}
+img#compare{
+    margin:0px 32.7812px 0px 32.7656px;
+  
+}
+.text-mac{
+    color:white;
+}
+#MacBookpro{
+    font-size: 70px;
+    color: white;
+}
+#super{
+    color: white;
+}
+#text-learnmoree{
+    color: white;
+    font-size: 20px;
+}
+.main-img-built img{
+    border-radius: 20px;
+}
+#text-promo1 img{
+position: relative;
+top:10px;
+  
+}
+#text-ft6{
+    padding-bottom: 30px;
+    border-bottom: 1px solid  #e0e0e0;
+}
